@@ -1,5 +1,5 @@
-function Home(){
-    return <h1>Testando implantaçãod d</h1>
+function Home() {
+  return <h1>Primeira pagina</h1>;
 }
 
 export default Home;
