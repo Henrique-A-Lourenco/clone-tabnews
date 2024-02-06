@@ -4,6 +4,12 @@ import Head from "next/head";
 function Home() {
   return (
     <div className={styles.container}>
+      <style jsx global>{`
+        body {
+          background-color: rgb(7, 19, 31);
+          color: white;
+        }
+      `}</style>
       <Head>
         <title>Em Construção</title>
         <link rel="icon" href="/images/icon.png" />
@@ -19,6 +25,7 @@ function Home() {
         Esse projeto é para colocar em prática os conhecimento adquiridos no
         <b> curso.dev</b>.<br></br>
         <a
+          className={styles.link}
           href="https://github.com/Henrique-A-Lourenco/clone-tabnews"
           target="_blank"
         >
