@@ -9,18 +9,33 @@
 }
 
 .image {
-  max-width: 45%;
+  max-width: 75%;
   height: auto;
   border-radius: 8px;
   margin-bottom: 16px;
+  margin-top: 16px;
 }
 
 .title {
-  font-size: 30px;
   margin-bottom: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 6vw;
 }
 
 .text {
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: 20px; /* Tamanho da fonte específico para telas menores que 450px */
+  }
+}
+
+@media (min-width: 1200px) {
+  .title {
+    font-size: 30px; /* Tamanho máximo de 30 pixels para telas maiores que 1200px */
+  }
 }

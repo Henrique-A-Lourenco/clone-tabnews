@@ -8,7 +8,7 @@ function Home() {
         <title>Em Construção</title>
         <link rel="icon" href="/images/icon.png" />
       </Head>
-      <h1>Isso mesmo não tem nada pronto </h1>
+      <h1 className={styles.title}>Isso mesmo não tem nada pronto </h1>
       <img
         src="/images/SeQuiserSimMano.gif"
         alt="Logo Dev"
