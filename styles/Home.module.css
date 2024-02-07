@@ -33,13 +33,13 @@
   color: rgb(1, 145, 202);
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 400px) {
   .title {
     font-size: 20px; /* Tamanho da fonte específico para telas menores que 450px */
   }
 }
 
-@media (min-width: 750px) {
+@media (min-width: 550px) {
   .title {
     font-size: 30px; /* Tamanho máximo de 30 pixels para telas maiores que 1200px */
   }
