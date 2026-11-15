@@ -22,7 +22,7 @@ tests/integration/  Testes que acessam o servidor e o banco locais
 
 É necessário ter Node.js, npm e Docker com Compose. Inicie o Docker Desktop (ou o serviço Docker da sua plataforma) antes de executar o projeto.
 
-A referência do curso em `.nvmrc` é `lts/hydrogen` (Node.js 18). A verificação desta preparação foi realizada no Windows com Node.js 26.13.0 e npm 11.20.0, disponíveis no ambiente. Isso não substitui a referência do curso nem confirma compatibilidade com todas as versões; nenhuma versão foi atualizada nesta preparação.
+Use Node.js 26: `.nvmrc` indica `26` e `engines.node` no `package.json` exige `26.x`. Essa configuração substitui a referência antiga ao Node.js 18, descontinuado no ambiente de publicação. Na Vercel, mantenha também **Settings → Build and Deployment → Node.js Version** em **26.x**. O campo `engines.node` define a versão para novos builds. A verificação local foi realizada no Windows com Node.js 26.13.0 e npm 11.20.0.
 
 Instale as dependências fixadas no `package-lock.json`:
 
